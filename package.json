@@ -9,6 +9,12 @@
   "categories": [
     "Other"
   ],
+  "icon": "icon.png",
+  "publisher": "LiRenTech",
+  "author": {
+    "name": "LiRenTech"
+  },
+  "license": "MIT",
   "activationEvents": [
     "*"
   ],
