@@ -1,7 +1,7 @@
 {
   "name": "little-clock",
   "displayName": "little-clock",
-  "description": "",
+  "description": "A simple timer extension for VS Code",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.107.0"
@@ -9,13 +9,15 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "*"
+  ],
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "little-clock.helloWorld",
-        "title": "Hello World"
+        "command": "little-clock.toggleTimer",
+        "title": "Toggle Timer"
       }
     ]
   },
