@@ -2,13 +2,14 @@
   "name": "little-clock",
   "displayName": "little-clock",
   "description": "A simple timer extension for VS Code",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.58.0"
   },
   "categories": [
     "Other"
   ],
+  "extensionKind": ["ui"],
   "icon": "icon.png",
   "publisher": "LiRenTech",
   "author": {
